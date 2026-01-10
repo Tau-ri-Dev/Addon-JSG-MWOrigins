@@ -1,13 +1,12 @@
-# Just Stargate Mod | Milky Way Origins Library
+# Just Stargate Mod | Additional Origins Addon
 
-This library provides extra textures and models of Milkyway's Point of Origins.
+This addon provides extra textures and models of stargate's Point of Origins.
 
-To run this library you need to have installed Just Stargate Mod (JSG).
+To run this addon you need to have installed Just Stargate Mod (JSG).
 
-## How to install this lib?
+## How to install this addon?
 1. Download and extract .zip file from releases on GitHub or on CurseForge.
-2. Open "src" folder
-3. Merge "assets" folder with assets folder inside jsg config folder (Should be in .minecraft/config/jsg/)
-4. Open "stargates-origins.cfg" file inside "config" folder
-5. Copy content from this file and replace section "origins" in JSG stargates config file with this content
-6. Launch Minecraft 1.12.2 with Forge and JSG mod
+2. Open `src` folder
+3. Merge `assets` folder with assets folder inside minecraft folder (Should be in `.minecraft/assets/`)
+	- by merging we mean copy over the `jsg_origins` folder into your `assets` folder
+6. Launch Minecraft 1.20.1 with Forge and JSG mod
